@@ -4,7 +4,7 @@ terraform {
   cloud {
     organization = "Terraform_World_25"
     workspaces {
-      name = "azure-terraform-codespc"
+      name = "azure-terraform-codespc-DEV"
     }
   }
   required_providers {

@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "rg-tf" {
-  name     = "rg-tf-codespc"
+  name     = var.rg_name
   location = "West Europe"
 }
